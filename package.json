@@ -1,0 +1,23 @@
+{
+  "name": "sean-website-hub",
+  "version": "1.0.0",
+  "description": "My all encompassing website made with React and Firebase!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epicmine99/Sean-website-hub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epicmine99/Sean-website-hub/issues"
+  },
+  "homepage": "https://github.com/epicmine99/Sean-website-hub#readme",
+  "dependencies": {
+    "firebase": "^9.10.0"
+  }
+}
