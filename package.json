@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/epicmine99/Sean-website-hub#readme",
   "dependencies": {
-    "firebase": "^9.10.0"
+    "bootstrap": "^5.2.1",
+    "firebase": "^9.10.0",
+    "react-bootstrap": "^2.5.0"
   }
 }
