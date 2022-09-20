@@ -1,6 +1,22 @@
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { useEffect, useState} from "react";
 
-function BasicNavBar() {
+export const BasicNavBar = () => {
+  const [activeLink, setActiveLink] = useState('home');
+  const [scolled, seScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => {
+      if (window.scrollY > 50) {
+        seScrolled(true);
+      } else {
+        seScrolled(false);
+      }
+    }
+    
+    window.addEventListener("scroll", onScroll);
+  }, [] )
+  
   return (
     <>
       <Navbar bg="dark" variant="dark">
@@ -26,5 +42,3 @@ function BasicNavBar() {
     </>
   );
 }
-
-export default BasicNavBar;
