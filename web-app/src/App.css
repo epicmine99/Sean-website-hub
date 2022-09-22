@@ -1,10 +1,22 @@
 /* Custom Fonts*/
 @font-face {
   font-family: Centra;
-  src: url('./assets/font/CentraNo2-bold.tff');
+  src: url('./assets/font/CentraNo2-Bold.tff');
   font-weight: 700;
 }
 
+@font-face {
+  font-family: Centra;
+  src: url('./assets/font/CentraNo2-Medium.tff');
+  font-weight: 500;
+}
+@font-face {
+  font-family: Centra;
+  src: url('./assets/font/CentraNo2-book.tff');
+  font-weight: 400;
+}
+
+/* Default CSS */
 .App {
   text-align: center;
 }
