@@ -15,8 +15,10 @@ export const BasicNavBar = () => {
     }
     
     window.addEventListener("scroll", onScroll);
+
+    return () => window.removeEventListener("scroll", onScroll);
   }, [] )
-  
+
   return (
     <>
       <Navbar bg="dark" variant="dark">
